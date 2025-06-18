@@ -1,0 +1,472 @@
+2025-06-17 22:42:03,910 - __main__ - INFO - ================================================================================
+2025-06-17 22:42:03,911 - __main__ - INFO - ALBERTA GOVERNMENT PDF DOCUMENT SCRAPER
+2025-06-17 22:42:03,911 - __main__ - INFO - ================================================================================
+2025-06-17 22:42:03,911 - __main__ - INFO - Comprehensive scrape of ALL ministries for PDF documents only
+2025-06-17 22:42:03,911 - __main__ - INFO - Documents will NOT be downloaded - building table only
+2025-06-17 22:42:03,911 - __main__ - INFO - ================================================================================
+2025-06-17 22:42:03,911 - __main__ - INFO - Configuration:
+2025-06-17 22:42:03,911 - __main__ - INFO -   output_dir: alberta_pdf_catalog_20250617_224203
+2025-06-17 22:42:03,911 - __main__ - INFO -   delay: 1.0
+2025-06-17 22:42:03,911 - __main__ - INFO -   max_depth: 3
+2025-06-17 22:42:03,911 - __main__ - INFO -   file_types: ['.pdf']
+2025-06-17 22:42:03,911 - __main__ - INFO -   download_docs: False
+2025-06-17 22:42:03,912 - __main__ - INFO - 
+2025-06-17 22:42:03,913 - __main__ - INFO - PHASE 1: Discovering Alberta Government Ministries
+2025-06-17 22:42:03,913 - __main__ - INFO - --------------------------------------------------
+2025-06-17 22:42:03,913 - graphrag.scrapers.alberta_gov_scraper - INFO - Scraping ministries...
+2025-06-17 22:42:03,913 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/ministries
+2025-06-17 22:42:04,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 27 ministries
+2025-06-17 22:42:04,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Saving 27 records to alberta_pdf_catalog_20250617_224203/ministries.csv
+2025-06-17 22:42:04,116 - __main__ - INFO - Found 27 ministries to process
+2025-06-17 22:42:04,116 - __main__ - INFO - 
+2025-06-17 22:42:04,116 - __main__ - INFO - PHASE 2: Comprehensive PDF Document Discovery
+2025-06-17 22:42:04,116 - __main__ - INFO - --------------------------------------------------
+2025-06-17 22:42:04,116 - __main__ - INFO - [1/27] Processing: Advanced Education
+2025-06-17 22:42:04,116 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Advanced Education
+2025-06-17 22:42:04,116 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/advanced-education
+2025-06-17 22:42:04,313 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/advanced-education
+2025-06-17 22:42:05,529 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/community-adult-learning-program
+2025-06-17 22:42:05,703 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/community-adult-learning-program
+2025-06-17 22:42:06,902 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/child-care-subsidy
+2025-06-17 22:42:07,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/child-care-subsidy
+2025-06-17 22:42:08,316 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/open-government-program
+2025-06-17 22:42:08,522 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/open-government-program
+2025-06-17 22:42:09,710 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/get-help-elder-abuse
+2025-06-17 22:42:09,934 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/get-help-elder-abuse
+2025-06-17 22:42:11,166 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/budget-documents
+2025-06-17 22:42:11,433 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/budget-documents
+2025-06-17 22:42:12,715 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/post-secondary-program-standards-oversight
+2025-06-17 22:42:12,922 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/post-secondary-program-standards-oversight
+2025-06-17 22:42:14,152 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/refocusing-health-care-in-alberta
+2025-06-17 22:42:14,499 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/refocusing-health-care-in-alberta
+2025-06-17 22:42:15,677 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/foster-and-kinship-care
+2025-06-17 22:42:15,952 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/foster-and-kinship-care
+2025-06-17 22:42:17,176 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/all-services
+2025-06-17 22:42:17,397 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/all-services
+2025-06-17 22:42:18,591 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/release.cfm?xID=93483F686E9DD-DC45-057A-D2A880EADB182292
+2025-06-17 22:42:20,126 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/news
+2025-06-17 22:42:21,367 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#20-21
+2025-06-17 22:42:22,637 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/contact.cfm
+2025-06-17 22:42:23,957 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-action
+2025-06-17 22:42:25,169 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/data-publications-information-management
+2025-06-17 22:42:26,395 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#19-20
+2025-06-17 22:42:27,644 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-of-alberta
+2025-06-17 22:42:28,914 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/release.cfm?xID=93482F3A82391-952D-4BA8-4FA399D7A9C03AE9
+2025-06-17 22:42:30,582 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/public-engagement
+2025-06-17 22:43:01,177 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#23-24
+2025-06-17 22:43:02,432 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/release.cfm?xID=93484F8D4F239-0C19-0C50-EE5C10A1AA7DAE94
+2025-06-17 22:43:04,066 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/ministers-seniors-service-awards
+2025-06-17 22:43:05,311 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#prior
+2025-06-17 22:43:06,559 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/vehicle-registration-renewal
+2025-06-17 22:43:07,739 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#21-22
+2025-06-17 22:43:09,014 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/find-a-job
+2025-06-17 22:43:10,196 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/community-adult-learning-program-overview
+2025-06-17 22:43:25,939 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/community-adult-learning-program-policy-and-resources
+2025-06-17 22:43:40,626 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-and-ministry-annual-reports#22-23
+2025-06-17 22:43:41,890 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 7868 documents/pages for Advanced Education
+2025-06-17 22:43:41,892 - __main__ - INFO -     → Found 7838 PDF documents
+2025-06-17 22:43:41,892 - __main__ - INFO -     → Processed 30 webpages
+2025-06-17 22:43:41,892 - __main__ - INFO -     → Extracted 650 entities
+2025-06-17 22:43:41,892 - __main__ - INFO -     → Processing time: 97.8 seconds
+2025-06-17 22:43:41,892 - __main__ - INFO - 
+2025-06-17 22:43:41,892 - __main__ - INFO - [2/27] Processing: Affordability and Utilities
+2025-06-17 22:43:41,892 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Affordability and Utilities
+2025-06-17 22:43:41,892 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/affordability-and-utilities
+2025-06-17 22:43:42,096 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/affordability-and-utilities
+2025-06-17 22:43:43,286 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/disclaimer
+2025-06-17 22:43:43,506 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/disclaimer
+2025-06-17 22:43:44,691 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/farm-fuel-and-rural-utility-programs
+2025-06-17 22:43:59,159 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/farm-fuel-and-rural-utility-programs
+2025-06-17 22:44:00,359 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/usingthissite
+2025-06-17 22:44:00,622 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/usingthissite
+2025-06-17 22:44:01,813 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/contact-government
+2025-06-17 22:44:02,020 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/contact-government
+2025-06-17 22:44:03,262 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/privacystatement
+2025-06-17 22:44:08,090 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/privacystatement
+2025-06-17 22:44:09,281 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/accessibility
+2025-06-17 22:44:09,582 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/accessibility
+2025-06-17 22:44:10,788 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/social-media-directory
+2025-06-17 22:44:11,174 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/social-media-directory
+2025-06-17 22:44:12,385 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/ministries
+2025-06-17 22:44:12,567 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/ministries
+2025-06-17 22:44:13,765 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/staff-directory.cfm
+2025-06-17 22:44:14,220 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/staff-directory.cfm
+2025-06-17 22:44:15,394 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/wildfire-prevention-and-mitigation
+2025-06-17 22:44:15,607 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/wildfire-prevention-and-mitigation
+2025-06-17 22:44:16,794 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/service-of-commencement-documents-on-the-crown
+2025-06-17 22:44:31,211 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/hospital-and-surgical-health-services
+2025-06-17 22:44:32,424 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/service-alberta
+2025-06-17 22:44:33,611 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/assisted-living-and-social-services
+2025-06-17 22:44:34,812 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/primary-and-preventative-health-services
+2025-06-17 22:44:36,164 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/vulnerability-reporting-program
+2025-06-17 22:44:37,396 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/system/files/custom_downloaded_images/af-leak-damage-report.pdf
+2025-06-17 22:44:38,149 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-06-17 22:44:39,164 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/open-government-program.aspx
+2025-06-17 22:44:40,447 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/public-service-commission
+2025-06-17 22:44:41,661 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/public-safety-and-emergency-services
+2025-06-17 22:44:42,886 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/children-and-family-services
+2025-06-17 22:44:44,119 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 122 documents/pages for Affordability and Utilities
+2025-06-17 22:44:44,121 - __main__ - INFO -     → Found 100 PDF documents
+2025-06-17 22:44:44,121 - __main__ - INFO -     → Processed 22 webpages
+2025-06-17 22:44:44,121 - __main__ - INFO -     → Extracted 210 entities
+2025-06-17 22:44:44,121 - __main__ - INFO -     → Processing time: 62.2 seconds
+2025-06-17 22:44:44,121 - __main__ - INFO - 
+2025-06-17 22:44:44,121 - __main__ - INFO - [3/27] Processing: Agriculture and Irrigation
+2025-06-17 22:44:44,122 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Agriculture and Irrigation
+2025-06-17 22:44:44,122 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/agriculture-and-irrigation
+2025-06-17 22:44:44,428 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/agriculture-and-irrigation
+2025-06-17 22:44:45,618 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Agriculture and Irrigation
+2025-06-17 22:44:45,618 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:44:45,618 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:44:45,618 - __main__ - INFO -     → Extracted 10 entities
+2025-06-17 22:44:45,618 - __main__ - INFO -     → Processing time: 1.5 seconds
+2025-06-17 22:44:45,618 - __main__ - INFO - 
+2025-06-17 22:44:45,618 - __main__ - INFO - [4/27] Processing: Arts, Culture and Status of Women
+2025-06-17 22:44:45,618 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Arts, Culture and Status of Women
+2025-06-17 22:44:45,618 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/arts-culture-and-status-of-women
+2025-06-17 22:44:45,848 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/arts-culture-and-status-of-women
+2025-06-17 22:44:47,055 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Arts, Culture and Status of Women
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Extracted 11 entities
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Processing time: 1.4 seconds
+2025-06-17 22:44:47,055 - __main__ - INFO - 
+2025-06-17 22:44:47,055 - __main__ - INFO - [5/27] Processing: Assisted Living and Social Services
+2025-06-17 22:44:47,055 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Assisted Living and Social Services
+2025-06-17 22:44:47,055 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Assisted Living and Social Services
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:44:47,055 - __main__ - INFO - 
+2025-06-17 22:44:47,055 - __main__ - INFO - [6/27] Processing: Children and Family Services
+2025-06-17 22:44:47,055 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Children and Family Services
+2025-06-17 22:44:47,055 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Children and Family Services
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:44:47,055 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:44:47,056 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:44:47,056 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:44:47,056 - __main__ - INFO - 
+2025-06-17 22:44:47,056 - __main__ - INFO - [7/27] Processing: Communications and Public Engagement
+2025-06-17 22:44:47,056 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Communications and Public Engagement
+2025-06-17 22:44:47,056 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/communications-and-public-engagement
+2025-06-17 22:44:47,281 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/communications-and-public-engagement
+2025-06-17 22:44:48,468 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-identity-program
+2025-06-17 22:44:48,738 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/government-identity-program
+2025-06-17 22:44:49,943 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 6 documents/pages for Communications and Public Engagement
+2025-06-17 22:44:49,944 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:44:49,944 - __main__ - INFO -     → Processed 2 webpages
+2025-06-17 22:44:49,944 - __main__ - INFO -     → Extracted 17 entities
+2025-06-17 22:44:49,944 - __main__ - INFO -     → Processing time: 2.9 seconds
+2025-06-17 22:44:49,945 - __main__ - INFO - 
+2025-06-17 22:44:49,945 - __main__ - INFO - [8/27] Processing: Education and Childcare
+2025-06-17 22:44:49,945 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Education and Childcare
+2025-06-17 22:44:49,945 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/education-and-childcare
+2025-06-17 22:44:50,146 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/education-and-childcare
+2025-06-17 22:44:51,358 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/programs-of-study
+2025-06-17 22:44:51,589 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/programs-of-study
+2025-06-17 22:44:52,804 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/school-construction-accelerator-program
+2025-06-17 22:44:58,967 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/school-construction-accelerator-program
+2025-06-17 22:45:00,188 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/education-and-childcare
+2025-06-17 22:45:10,595 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/education-and-childcare
+2025-06-17 22:45:11,801 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/get-help-elder-abuse
+2025-06-17 22:45:30,351 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/5018
+2025-06-17 22:45:32,453 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/7642
+2025-06-17 22:45:34,923 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/5885
+2025-06-17 22:45:37,129 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/7888
+2025-06-17 22:45:38,648 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/7575
+2025-06-17 22:45:40,641 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/programs-of-study
+2025-06-17 22:45:56,673 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/2334
+2025-06-17 22:45:58,680 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/k-12-curriculum-programs-of-study
+2025-06-17 22:45:59,908 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/budget-documents.aspx
+2025-06-17 22:46:01,281 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/node/3495
+2025-06-17 22:46:03,238 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/school-construction-accelerator-program
+2025-06-17 22:46:09,574 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 492 documents/pages for Education and Childcare
+2025-06-17 22:46:09,576 - __main__ - INFO -     → Found 476 PDF documents
+2025-06-17 22:46:09,576 - __main__ - INFO -     → Processed 16 webpages
+2025-06-17 22:46:09,576 - __main__ - INFO -     → Extracted 375 entities
+2025-06-17 22:46:09,576 - __main__ - INFO -     → Processing time: 79.6 seconds
+2025-06-17 22:46:09,577 - __main__ - INFO - 
+2025-06-17 22:46:09,577 - __main__ - INFO - [9/27] Processing: Energy and Minerals
+2025-06-17 22:46:09,577 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Energy and Minerals
+2025-06-17 22:46:09,577 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/energy-and-minerals
+2025-06-17 22:46:09,761 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/energy-and-minerals
+2025-06-17 22:46:10,944 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/payment-maps-and-information-services
+2025-06-17 22:46:15,404 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/payment-maps-and-information-services
+2025-06-17 22:46:16,580 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/energy-industry-documents
+2025-06-17 22:46:29,941 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/energy-industry-documents
+2025-06-17 22:46:31,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 11 documents/pages for Energy and Minerals
+2025-06-17 22:46:31,115 - __main__ - INFO -     → Found 8 PDF documents
+2025-06-17 22:46:31,115 - __main__ - INFO -     → Processed 3 webpages
+2025-06-17 22:46:31,115 - __main__ - INFO -     → Extracted 25 entities
+2025-06-17 22:46:31,115 - __main__ - INFO -     → Processing time: 21.5 seconds
+2025-06-17 22:46:31,115 - __main__ - INFO - 
+2025-06-17 22:46:31,115 - __main__ - INFO - [10/27] Processing: Environment and Protected Areas
+2025-06-17 22:46:31,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Environment and Protected Areas
+2025-06-17 22:46:31,115 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/environment-and-protected-areas
+2025-06-17 22:46:31,319 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/environment-and-protected-areas
+2025-06-17 22:46:32,492 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/albertas-environmental-science-program
+2025-06-17 22:46:48,935 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/albertas-environmental-science-program
+2025-06-17 22:46:50,140 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 8 documents/pages for Environment and Protected Areas
+2025-06-17 22:46:50,141 - __main__ - INFO -     → Found 6 PDF documents
+2025-06-17 22:46:50,141 - __main__ - INFO -     → Processed 2 webpages
+2025-06-17 22:46:50,141 - __main__ - INFO -     → Extracted 19 entities
+2025-06-17 22:46:50,141 - __main__ - INFO -     → Processing time: 19.0 seconds
+2025-06-17 22:46:50,141 - __main__ - INFO - 
+2025-06-17 22:46:50,141 - __main__ - INFO - [11/27] Processing: Executive Council
+2025-06-17 22:46:50,141 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Executive Council
+2025-06-17 22:46:50,141 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/executive-council
+2025-06-17 22:46:52,331 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/executive-council
+2025-06-17 22:46:53,527 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 3 documents/pages for Executive Council
+2025-06-17 22:46:53,527 - __main__ - INFO -     → Found 2 PDF documents
+2025-06-17 22:46:53,527 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:46:53,527 - __main__ - INFO -     → Extracted 11 entities
+2025-06-17 22:46:53,527 - __main__ - INFO -     → Processing time: 3.4 seconds
+2025-06-17 22:46:53,527 - __main__ - INFO - 
+2025-06-17 22:46:53,527 - __main__ - INFO - [12/27] Processing: Forestry and Parks
+2025-06-17 22:46:53,527 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Forestry and Parks
+2025-06-17 22:46:53,527 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/forestry-and-parks
+2025-06-17 22:46:53,747 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/forestry-and-parks
+2025-06-17 22:46:54,938 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Forestry and Parks
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Extracted 9 entities
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Processing time: 1.4 seconds
+2025-06-17 22:46:54,938 - __main__ - INFO - 
+2025-06-17 22:46:54,938 - __main__ - INFO - [13/27] Processing: Hospital and Surgical Health Services
+2025-06-17 22:46:54,938 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Hospital and Surgical Health Services
+2025-06-17 22:46:54,938 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Hospital and Surgical Health Services
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:46:54,938 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:46:54,939 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:46:54,939 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:46:54,939 - __main__ - INFO - 
+2025-06-17 22:46:54,939 - __main__ - INFO - [14/27] Processing: Indigenous Relations
+2025-06-17 22:46:54,939 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Indigenous Relations
+2025-06-17 22:46:54,940 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-relations
+2025-06-17 22:46:55,146 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-relations
+2025-06-17 22:46:56,332 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/first-nations-development-fund-grant-program
+2025-06-17 22:47:00,957 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/first-nations-development-fund-grant-program
+2025-06-17 22:47:02,134 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-organizations-and-service-directory
+2025-06-17 22:47:06,144 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-organizations-and-service-directory
+2025-06-17 22:47:07,344 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/employment-partnerships-program
+2025-06-17 22:47:22,235 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/employment-partnerships-program
+2025-06-17 22:47:23,431 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/metis-and-indigenous-childrens-services-offices
+2025-06-17 22:47:38,414 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-employment-training-partnerships-program
+2025-06-17 22:47:52,814 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/alberta-indigenous-intern-program
+2025-06-17 22:47:57,998 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/indigenous-housing-capital-program
+2025-06-17 22:47:59,201 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/Indigenous-organizations-and-service-directory
+2025-06-17 22:48:00,697 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 37 documents/pages for Indigenous Relations
+2025-06-17 22:48:00,698 - __main__ - INFO -     → Found 28 PDF documents
+2025-06-17 22:48:00,699 - __main__ - INFO -     → Processed 9 webpages
+2025-06-17 22:48:00,699 - __main__ - INFO -     → Extracted 107 entities
+2025-06-17 22:48:00,699 - __main__ - INFO -     → Processing time: 65.8 seconds
+2025-06-17 22:48:00,699 - __main__ - INFO - 
+2025-06-17 22:48:00,699 - __main__ - INFO - [15/27] Processing: Infrastructure
+2025-06-17 22:48:00,700 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Infrastructure
+2025-06-17 22:48:00,700 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/infrastructure
+2025-06-17 22:48:00,929 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/infrastructure
+2025-06-17 22:48:02,141 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Infrastructure
+2025-06-17 22:48:02,142 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:48:02,142 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:48:02,142 - __main__ - INFO -     → Extracted 11 entities
+2025-06-17 22:48:02,142 - __main__ - INFO -     → Processing time: 1.4 seconds
+2025-06-17 22:48:02,142 - __main__ - INFO - 
+2025-06-17 22:48:02,142 - __main__ - INFO - [16/27] Processing: Jobs, Economy, Trade and Immigration
+2025-06-17 22:48:02,142 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Jobs, Economy, Trade and Immigration
+2025-06-17 22:48:02,142 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/jobs-economy-trade-and-immigration
+2025-06-17 22:48:02,341 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/jobs-economy-trade-and-immigration
+2025-06-17 22:48:03,546 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/training-and-employment-services-directory
+2025-06-17 22:48:03,905 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/training-and-employment-services-directory
+2025-06-17 22:48:05,140 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 6 documents/pages for Jobs, Economy, Trade and Immigration
+2025-06-17 22:48:05,140 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:48:05,140 - __main__ - INFO -     → Processed 2 webpages
+2025-06-17 22:48:05,141 - __main__ - INFO -     → Extracted 35 entities
+2025-06-17 22:48:05,141 - __main__ - INFO -     → Processing time: 3.0 seconds
+2025-06-17 22:48:05,141 - __main__ - INFO - 
+2025-06-17 22:48:05,141 - __main__ - INFO - [17/27] Processing: Justice
+2025-06-17 22:48:05,141 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Justice
+2025-06-17 22:48:05,141 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/justice
+2025-06-17 22:48:05,435 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/justice
+2025-06-17 22:48:06,627 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/alberta-crown-prosecution-service
+2025-06-17 22:48:06,849 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/alberta-crown-prosecution-service
+2025-06-17 22:48:08,041 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/maintenance-enforcement-program
+2025-06-17 22:48:08,236 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/maintenance-enforcement-program
+2025-06-17 22:48:09,409 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/alberta-police-service-transition-study
+2025-06-17 22:48:38,071 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/alberta-police-service-transition-study
+2025-06-17 22:48:39,264 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/summer-law-student-programs
+2025-06-17 22:48:54,318 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/mep-enforcement-programs-outside-alberta
+2025-06-17 22:49:10,003 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/contact-the-alberta-crown-prosecution-service
+2025-06-17 22:49:11,212 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/provincial-police-service-engagement
+2025-06-17 22:49:38,138 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/articling-program
+2025-06-17 22:49:43,725 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 41 documents/pages for Justice
+2025-06-17 22:49:43,726 - __main__ - INFO -     → Found 32 PDF documents
+2025-06-17 22:49:43,726 - __main__ - INFO -     → Processed 9 webpages
+2025-06-17 22:49:43,726 - __main__ - INFO -     → Extracted 113 entities
+2025-06-17 22:49:43,726 - __main__ - INFO -     → Processing time: 98.6 seconds
+2025-06-17 22:49:43,726 - __main__ - INFO - 
+2025-06-17 22:49:43,727 - __main__ - INFO - [18/27] Processing: Mental Health and Addiction
+2025-06-17 22:49:43,727 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Mental Health and Addiction
+2025-06-17 22:49:43,727 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/mental-health-and-addiction
+2025-06-17 22:49:43,926 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/mental-health-and-addiction
+2025-06-17 22:49:45,105 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/addiction-and-mental-health-service-provider-licensing
+2025-06-17 22:49:57,764 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/addiction-and-mental-health-service-provider-licensing
+2025-06-17 22:49:58,977 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/supervised-consumption-service-provider-licensing
+2025-06-17 22:50:00,187 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/addiction-and-mental-health-service-provider-licensing-appeal-decision
+2025-06-17 22:50:14,887 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/addiction-and-mental-health-service-provider-licensing-appeal-hearing
+2025-06-17 22:50:20,067 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/narcotic-transition-service-provider-licensing
+2025-06-17 22:50:25,646 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/psychedelic-drug-treatment-service-provider-licensing
+2025-06-17 22:50:39,428 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 37 documents/pages for Mental Health and Addiction
+2025-06-17 22:50:39,429 - __main__ - INFO -     → Found 30 PDF documents
+2025-06-17 22:50:39,429 - __main__ - INFO -     → Processed 7 webpages
+2025-06-17 22:50:39,429 - __main__ - INFO -     → Extracted 66 entities
+2025-06-17 22:50:39,429 - __main__ - INFO -     → Processing time: 55.7 seconds
+2025-06-17 22:50:39,429 - __main__ - INFO - 
+2025-06-17 22:50:39,429 - __main__ - INFO - [19/27] Processing: Municipal Affairs
+2025-06-17 22:50:39,430 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Municipal Affairs
+2025-06-17 22:50:39,430 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/municipal-affairs
+2025-06-17 22:50:39,651 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/municipal-affairs
+2025-06-17 22:50:40,870 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Municipal Affairs
+2025-06-17 22:50:40,870 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:50:40,870 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:50:40,870 - __main__ - INFO -     → Extracted 10 entities
+2025-06-17 22:50:40,870 - __main__ - INFO -     → Processing time: 1.4 seconds
+2025-06-17 22:50:40,871 - __main__ - INFO - 
+2025-06-17 22:50:40,871 - __main__ - INFO - [20/27] Processing: Primary and Preventative Health Services
+2025-06-17 22:50:40,871 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Primary and Preventative Health Services
+2025-06-17 22:50:40,871 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Primary and Preventative Health Services
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:50:40,871 - __main__ - INFO - 
+2025-06-17 22:50:40,871 - __main__ - INFO - [21/27] Processing: Public Safety and Emergency Services
+2025-06-17 22:50:40,871 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Public Safety and Emergency Services
+2025-06-17 22:50:40,871 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Public Safety and Emergency Services
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:50:40,871 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:50:40,871 - __main__ - INFO - 
+2025-06-17 22:50:40,872 - __main__ - INFO - [22/27] Processing: Public Service Commission
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Public Service Commission
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Public Service Commission
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:50:40,872 - __main__ - INFO - 
+2025-06-17 22:50:40,872 - __main__ - INFO - [23/27] Processing: Service Alberta and Red Tape Reduction
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Service Alberta and Red Tape Reduction
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 0 documents/pages for Service Alberta and Red Tape Reduction
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Found 0 PDF documents
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Processed 0 webpages
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Extracted 0 entities
+2025-06-17 22:50:40,872 - __main__ - INFO -     → Processing time: 0.0 seconds
+2025-06-17 22:50:40,872 - __main__ - INFO - 
+2025-06-17 22:50:40,872 - __main__ - INFO - [24/27] Processing: Technology and Innovation
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Technology and Innovation
+2025-06-17 22:50:40,872 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/technology-and-innovation
+2025-06-17 22:50:41,078 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/technology-and-innovation
+2025-06-17 22:50:42,280 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/digital-literacy-program
+2025-06-17 22:50:46,405 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/digital-literacy-program
+2025-06-17 22:50:47,597 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/system/files/ti-digital-literacy-program-poster-v1.pdf
+2025-06-17 22:50:49,134 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-06-17 22:50:50,584 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/system/files/ti-digital-literacy-program-poster-v2-with-cutmarks.pdf
+2025-06-17 22:50:51,763 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-06-17 22:50:53,190 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/system/files/ti-digital-literacy-program-poster-v1-with-cutmarks.pdf
+2025-06-17 22:50:54,410 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-06-17 22:50:55,870 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/fr/digital-literacy-program
+2025-06-17 22:51:01,125 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/system/files/ti-digital-literacy-program-poster-v2.pdf
+2025-06-17 22:51:02,366 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2025-06-17 22:51:03,790 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 31 documents/pages for Technology and Innovation
+2025-06-17 22:51:03,790 - __main__ - INFO -     → Found 24 PDF documents
+2025-06-17 22:51:03,791 - __main__ - INFO -     → Processed 7 webpages
+2025-06-17 22:51:03,791 - __main__ - INFO -     → Extracted 226 entities
+2025-06-17 22:51:03,791 - __main__ - INFO -     → Processing time: 22.9 seconds
+2025-06-17 22:51:03,791 - __main__ - INFO - 
+2025-06-17 22:51:03,791 - __main__ - INFO - [25/27] Processing: Tourism and Sport
+2025-06-17 22:51:03,792 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Tourism and Sport
+2025-06-17 22:51:03,792 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/tourism-and-sport
+2025-06-17 22:51:04,017 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/tourism-and-sport
+2025-06-17 22:51:05,221 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/every-kid-can-play-program
+2025-06-17 22:51:05,451 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/every-kid-can-play-program
+2025-06-17 22:51:06,636 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-physical-activity-and-recreation-stakeholder-services
+2025-06-17 22:51:11,847 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-physical-activity-and-recreation-stakeholder-services
+2025-06-17 22:51:13,037 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/tourism-industry-stakeholder-services
+2025-06-17 22:51:16,898 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/tourism-industry-stakeholder-services
+2025-06-17 22:51:18,095 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/major-sport-event-grant-program
+2025-06-17 22:51:31,531 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/major-sport-event-grant-program
+2025-06-17 22:51:32,720 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-physical-activity-and-recreation-grant-programs
+2025-06-17 22:51:33,925 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/association-development-grant-program
+2025-06-17 22:51:39,485 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-physical-activity-and-recreation-research-and-policy-development
+2025-06-17 22:51:52,703 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-physical-activity-and-recreation-award-programs
+2025-06-17 22:52:06,358 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/albertas-future-leaders-program
+2025-06-17 22:52:07,570 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/sport-participation-support-program
+2025-06-17 22:52:22,969 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 55 documents/pages for Tourism and Sport
+2025-06-17 22:52:22,970 - __main__ - INFO -     → Found 44 PDF documents
+2025-06-17 22:52:22,970 - __main__ - INFO -     → Processed 11 webpages
+2025-06-17 22:52:22,970 - __main__ - INFO -     → Extracted 95 entities
+2025-06-17 22:52:22,970 - __main__ - INFO -     → Processing time: 79.2 seconds
+2025-06-17 22:52:22,970 - __main__ - INFO - 
+2025-06-17 22:52:22,970 - __main__ - INFO - [26/27] Processing: Transportation and Economic Corridors
+2025-06-17 22:52:22,971 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Transportation and Economic Corridors
+2025-06-17 22:52:22,971 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/transportation-and-economic-corridors
+2025-06-17 22:52:26,254 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/transportation-and-economic-corridors
+2025-06-17 22:52:27,453 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 5 documents/pages for Transportation and Economic Corridors
+2025-06-17 22:52:27,453 - __main__ - INFO -     → Found 4 PDF documents
+2025-06-17 22:52:27,453 - __main__ - INFO -     → Processed 1 webpages
+2025-06-17 22:52:27,453 - __main__ - INFO -     → Extracted 9 entities
+2025-06-17 22:52:27,453 - __main__ - INFO -     → Processing time: 4.5 seconds
+2025-06-17 22:52:27,453 - __main__ - INFO - 
+2025-06-17 22:52:27,453 - __main__ - INFO - [27/27] Processing: Treasury Board and Finance
+2025-06-17 22:52:27,453 - graphrag.scrapers.alberta_gov_scraper - INFO - Recursively scraping documents for ministry: Treasury Board and Finance
+2025-06-17 22:52:27,453 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/treasury-board-and-finance
+2025-06-17 22:52:27,694 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/treasury-board-and-finance
+2025-06-17 22:52:28,896 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/provincial-audits-and-reporting
+2025-06-17 22:52:30,537 - graphrag.scrapers.alberta_gov_scraper - INFO - Fetching URL: https://www.alberta.ca/provincial-audits-and-reporting
+2025-06-17 22:52:31,726 - graphrag.scrapers.alberta_gov_scraper - INFO - Found 8 documents/pages for Treasury Board and Finance
+2025-06-17 22:52:31,727 - __main__ - INFO -     → Found 6 PDF documents
+2025-06-17 22:52:31,727 - __main__ - INFO -     → Processed 2 webpages
+2025-06-17 22:52:31,727 - __main__ - INFO -     → Extracted 17 entities
+2025-06-17 22:52:31,728 - __main__ - INFO -     → Processing time: 4.3 seconds
+2025-06-17 22:52:31,728 - __main__ - INFO - 
+2025-06-17 22:52:31,728 - __main__ - INFO - PHASE 3: Saving Results
+2025-06-17 22:52:31,728 - __main__ - INFO - --------------------------------------------------
+2025-06-17 22:52:31,728 - graphrag.scrapers.alberta_gov_scraper - INFO - Saving 8755 records to alberta_pdf_catalog_20250617_224203/pdf_documents_comprehensive.csv
+2025-06-17 22:52:31,785 - graphrag.scrapers.alberta_gov_scraper - INFO - Saving 2026 records to alberta_pdf_catalog_20250617_224203/entities_extracted.csv
+2025-06-17 22:52:31,791 - graphrag.scrapers.alberta_gov_scraper - INFO - Saving 27 records to alberta_pdf_catalog_20250617_224203/ministry_statistics.csv
+2025-06-17 22:52:31,791 - graphrag.scrapers.alberta_gov_scraper - INFO - Saving 8626 records to alberta_pdf_catalog_20250617_224203/pdf_documents_only.csv
+2025-06-17 22:52:31,828 - __main__ - INFO - SCRAPING COMPLETED SUCCESSFULLY!
+2025-06-17 22:52:31,828 - __main__ - INFO - ================================================================================
+2025-06-17 22:52:31,828 - __main__ - INFO - FINAL STATISTICS:
+2025-06-17 22:52:31,828 - __main__ - INFO -   Ministries processed: 27
+2025-06-17 22:52:31,828 - __main__ - INFO -   PDF documents found: 8,626
+2025-06-17 22:52:31,828 - __main__ - INFO -   Webpages processed: 129
+2025-06-17 22:52:31,828 - __main__ - INFO -   Total entities extracted: 2,026
+2025-06-17 22:52:31,828 - __main__ - INFO -   Results saved to: alberta_pdf_catalog_20250617_224203
+2025-06-17 22:52:31,828 - __main__ - INFO -   Log file: pdf_scraping_log_20250617_224203.log
+2025-06-17 22:52:31,828 - __main__ - INFO - 
+2025-06-17 22:52:31,828 - __main__ - INFO - TOP 10 MINISTRIES BY PDF DOCUMENT COUNT:
+2025-06-17 22:52:31,828 - __main__ - INFO -    1. Advanced Education: 7,838 PDFs
+2025-06-17 22:52:31,828 - __main__ - INFO -    2. Education and Childcare: 476 PDFs
+2025-06-17 22:52:31,828 - __main__ - INFO -    3. Affordability and Utilities: 100 PDFs
+2025-06-17 22:52:31,828 - __main__ - INFO -    4. Tourism and Sport: 44 PDFs
+2025-06-17 22:52:31,828 - __main__ - INFO -    5. Justice: 32 PDFs
+2025-06-17 22:52:31,828 - __main__ - INFO -    6. Mental Health and Addiction: 30 PDFs
+2025-06-17 22:52:31,829 - __main__ - INFO -    7. Indigenous Relations: 28 PDFs
+2025-06-17 22:52:31,829 - __main__ - INFO -    8. Technology and Innovation: 24 PDFs
+2025-06-17 22:52:31,829 - __main__ - INFO -    9. Energy and Minerals: 8 PDFs
+2025-06-17 22:52:31,829 - __main__ - INFO -   10. Environment and Protected Areas: 6 PDFs
+2025-06-17 22:52:31,829 - __main__ - INFO - 
+2025-06-17 22:52:31,829 - __main__ - INFO - OUTPUT FILES CREATED:
+2025-06-17 22:52:31,829 - __main__ - INFO -   entities_extracted.csv (292,685 bytes)
+2025-06-17 22:52:31,829 - __main__ - INFO -   markdown_content/ (directory)
+2025-06-17 22:52:31,829 - __main__ - INFO -   ministries.csv (5,432 bytes)
+2025-06-17 22:52:31,829 - __main__ - INFO -   ministry_statistics.csv (1,309 bytes)
+2025-06-17 22:52:31,829 - __main__ - INFO -   pdf_documents_comprehensive.csv (2,759,411 bytes)
+2025-06-17 22:52:31,829 - __main__ - INFO -   pdf_documents_only.csv (2,716,610 bytes)
+2025-06-17 22:52:31,829 - __main__ - INFO - 
+2025-06-17 22:52:31,829 - __main__ - INFO - 💡 TIP: Use 'pdf_documents_only.csv' for the clean PDF-only table
+2025-06-17 22:52:31,829 - __main__ - INFO - 💡 TIP: Use 'pdf_documents_comprehensive.csv' for all data including webpage content
+2025-06-17 22:52:31,829 - __main__ - INFO - 💡 TIP: Check 'markdown_content/' folder for HTML content saved as markdown files
