@@ -26,6 +26,11 @@ dependencies = [
     "requests>=2.25.0",
     "beautifulsoup4>=4.9.0",
     "html2text>=2025.4.15",
+    "kuzu>=0.10.0",
+    "pyyaml>=6.0.2",
+    "streamlit>=1.46.0",
+    "plotly>=6.1.2",
+    "networkx>=3.2.1",
 ]
 
 [project.optional-dependencies]

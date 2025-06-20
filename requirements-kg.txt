@@ -1,0 +1,7 @@
+# Knowledge Graph Extraction Dependencies
+databricks-connect>=13.0.0
+databricks-sql-connector>=3.0.0
+kuzu>=0.5.0
+pandas>=2.0.0
+pyyaml>=6.0.0
+numpy>=1.24.0 
